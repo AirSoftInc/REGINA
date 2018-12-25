@@ -23,7 +23,7 @@
 <div class="wrapper">
 
   <header class="main-header">
-    <a href="index2.html" class="logo"  style="background-color: #a4243b">
+    <a href="" class="logo"  style="background-color: #a4243b">
       <span class="logo-mini"><b>H</b>REG</span>
       <span class="logo-lg"><b>HOTEL REGINA</b></span>
     </a>
@@ -39,34 +39,19 @@
         <li class="header">MENU</li>
         <li class="">
           <a href="index.php">
-            <i class="fa fa-home" aria-hidden="true"></i> <span>Inicio</span>
+            <i class="fa fa-book" aria-hidden="true"></i> <span>Reservaciones</span>
           </a>
         </li>
-
          <li class="">
           <a href="">
-            <i class="fa fa-list" aria-hidden="true"></i> <span>Categoría</span>
+            <i class="fa fa-user" aria-hidden="true"></i> <span>Clientes</span>
           </a>
         </li>
-
         <li class="">
           <a href="">
-            <i class="fa fa-shopping-basket" aria-hidden="true"></i> <span>Presentación</span>
+            <i class="fa fa-briefcase" aria-hidden="true"></i> <span>Empresas</span>
           </a>
-        </li>
-
-
-         <li class="">
-          <a href="">
-            <i class="fa fa-tasks" aria-hidden="true"></i> <span>Productos</span>
-          </a> 
-        </li>
-
-        <li class="">
-          <a href="">
-            <i class="fa fa-users"></i> <span>Proveedores</span>
-          </a>
-        </li>           
+        </li>          
       </ul>
     </section>
   </aside>
