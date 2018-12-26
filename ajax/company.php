@@ -17,4 +17,54 @@
     $mail1 = isset($_POST["mail1"]);
     $mail2 = isset($_POST["mail2"]);
     $mail3 = isset($_POST["mail3"]);
+
+    switch ($_GET["op"]) {
+        case 'save':
+
+            $datos = $companies -> validateCompany($_POST["name"], $_POST["rfc"], $_POST["mail1"]);
+
+            if (is_array($datos) == true and count($datos) == 0) {
+                $companies -> saveCompany($name, $rfc, $street, $internal_number, $external_number, $colony,
+                $municipality, $zip_code, $state, $country, $mail1, $mail2, $mail3);
+
+                $messages [] = "La empresa se registró correctamente"; 
+            } else {
+                $errors[] = "La empresa ya se ecuentra registrada";
+            }
+            break;
+        
+            case 'getCompanies':
+
+                $datos = $companies -> getCompanies();
+
+                $data = Array();
+
+                foreach ($datos as $row) {
+                    $sub_array = array();
+
+                    $sub_array[] = $row["name"];
+                    $sub_array[] = $row["rfc"];
+                    $sub_array[] = $row["street"];
+                    $sub_array[] = $row["external_number"];
+                    $sub_array[] = $row["colony"];
+                    $sub_array[] = $row["municipality"];
+                    $sub_array[] = $row["zip_code"];
+                    $sub_array[] = $row["state"];
+                    $sub_array[] = $row["country"];
+                    $sub_array[] = $row["mail1"];
+                    $sub_array[] = '<button type="button" class="btn btn-primary">Editar</button>';
+                    $sub_array[] = '<button type="button" class="btn btn-danger">Eliminar</button>';
+
+                    $data[] = $sub_array;
+                }
+
+                $results = array(
+                    "sEcho" => 1,
+                    "iTotalRecords" => count($data),
+                    "iTotalDisplayRecords" => cout($data),
+                    "aaData" => $data);
+
+                    echo json_encode($results);
+            break;
+    }
 ?>
