@@ -8,6 +8,7 @@
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="../public/bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../public/bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../public/bower_components/font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="../public/bower_components/Ionicons/css/ionicons.min.css">
   <link rel="stylesheet" href="../public/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
   <link rel="stylesheet" href="../public/dist/css/AdminLTE.min.css">
@@ -22,15 +23,14 @@
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 
-  <header class="main-header">
-    <a href="index2.html" class="logo"  style="background-color: #a4243b">
+  <header class="main-header"> 
+    <a href="index.php" class="logo"  style="background-color: #a4243b">
       <span class="logo-mini"><b>H</b>REG</span>
       <span class="logo-lg"><b>HOTEL REGINA</b></span>
     </a>
     <nav class="navbar navbar-static-top" style="background-color: #a4243b">
       <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button" style="background-color: #a4243b">
       </a>
-    </nav>
   </header>
 
   <aside class="main-sidebar">
@@ -45,13 +45,13 @@
 
          <li class="">
           <a href="">
-            <i class="fa fa-list" aria-hidden="true"></i> <span>Categoría</span>
+            <i class="fa fa-list-alt" aria-hidden="true"></i> <span>Reservaciones</span>
           </a>
         </li>
 
         <li class="">
-          <a href="">
-            <i class="fa fa-shopping-basket" aria-hidden="true"></i> <span>Presentación</span>
+          <a href="Clients.php">
+            <i class="fa fa-user" aria-hidden="true"></i> <span>Clientes</span>
           </a>
         </li>
 
