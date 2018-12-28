@@ -44,13 +44,13 @@
         </li>
 
          <li class="">
-          <a href="">
+          <a href="reservations.php">
             <i class="fa fa-list-alt" aria-hidden="true"></i> <span>Reservaciones</span>
           </a>
         </li>
 
         <li class="">
-          <a href="Clients.php">
+          <a href="clients.php">
             <i class="fa fa-user" aria-hidden="true"></i> <span>Clientes</span>
           </a>
         </li>

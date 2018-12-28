@@ -8,7 +8,7 @@
 
         <section class="content">
   		<blockquote class="blockquote text-center">
-  			<h1 class="titleClients">Clientes</h1>
+  			<h1 class="titleClients" style="color:  #a4243b; font-weight: bold;">Clientes</h1>
 		</blockquote>
 
 <form>
@@ -92,8 +92,8 @@
 
   <button type="submit" class="btn btn-primary">Guardar</button>
     <button type="submit" class="btn btn-primary">Editar</button>
-  <button type="submit" class="btn btn-primary">Eliminar</button>
-    <button type="submit" class="btn btn-primary">Cancelar</button>
+  <button type="submit" class="btn btn-danger">Eliminar</button>
+    <button type="submit" class="btn btn-warning">Cancelar</button>
   <button type="submit" class="btn btn-primary">Imprimir</button>
 	<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">
   Mostrar Clientes
@@ -158,7 +158,7 @@
 </table>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
       </div>
     </div>
   </div>
