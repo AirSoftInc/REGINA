@@ -1,9 +1,10 @@
 <?php 
     class Connect{
+        protected $dbh;
 
-        public function connection(){
+        protected function connection(){
             try {
-                $connect = new PDO("mysql:local=localhost; dbname=regina_hotel", "root", "");
+                $connect = $this->dbh = new PDO("mysql:local=localhost; dbname=regina_hotel", "root", "");
 
                 return $connect;
 
@@ -11,6 +12,10 @@
                 print "¡Error!: " . $e->getMessage() . "<br/>";
                 die(); 
             }
+        }
+
+        public function set_names(){
+            return $this->dbh->query("SET NAMES 'utf8'");
         }
 
         public function ruta(){
