@@ -27,7 +27,7 @@
 <div class="wrapper">
 
   <header class="main-header">
-    <a href="" class="logo"  style="background-color: #a4243b">
+    <a href="index.php" class="logo"  style="background-color: #a4243b">
       <span class="logo-mini"><b>H</b>REG</span>
       <span class="logo-lg"><b>HOTEL REGINA</b></span>
     </a>
