@@ -27,10 +27,27 @@
                 $companies -> saveCompany($name, $rfc, $street, $internal_number, $external_number, $colony,
                 $municipality, $zip_code, $state, $country, $mail1, $mail2, $mail3);
 
-                $messages [] = "La empresa se registró correctamente"; 
+                $messages [] = "Succes"; 
             } else {
-                $errors[] = "La empresa ya se ecuentra registrada";
+                $errors[] = "Error";
             }
+
+            if (isset($messages)){	
+				?>
+                <script>
+                    alertify.success("Se ha insertado correctamente la empresa ");
+                </script>
+				<?php
+            }
+
+            if (isset($errors)){
+                ?>
+                <script>
+                    alertify.error("La empresa ya se encuentra registrada");
+                </script>
+				<?php
+            }
+            
             break;
         
             case 'getCompanies':

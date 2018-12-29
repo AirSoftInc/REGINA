@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="../public/datatables/jquery.dataTables.min.css">
   <link href="../public/datatables/buttons.dataTables.min.css" rel="stylesheet"/>
   <link href="../public/datatables/responsive.dataTables.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="../public/alerts/alertify.default.css">
+  <link rel="stylesheet" href="../public/alerts/alertify.core.css">
   <link rel="stylesheet" href="../public/dist/css/AdminLTE.min.css">
   <link rel="stylesheet" href="../public/dist/css/skins/_all-skins.min.css">
   <link rel="stylesheet" href="../public/bower_components/morris.js/morris.css">

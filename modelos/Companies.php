@@ -53,7 +53,7 @@
 
             $sql -> bindValue(1, $_POST["name"]);
             $sql -> bindValue(2, $_POST["rfc"]);
-            $sql -> bindValue(11, $_POST["mail1"]);
+            $sql -> bindValue(3, $_POST["mail1"]);
 
             $sql -> execute();
             

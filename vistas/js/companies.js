@@ -84,7 +84,7 @@ function getCompanies(){
 	}).DataTable();
 }
 
-function guardaryeditar(e){
+function save(e){
 	e.preventDefault();
     var formData = new FormData($("#companyForm")[0]);
     
@@ -101,13 +101,8 @@ function guardaryeditar(e){
 				$('#companyModal').modal('hide');
 				$('#resultados_ajax').html(datos);
 				$('#company_data').DataTable().ajax.reload();
-				
-                limpiar();
-					
 		    }
-
-		});
-       
+		});    
 }
 
 init();

@@ -35,5 +35,6 @@
 <script src="../public/dist/js/adminlte.min.js"></script>
 <script src="../public/dist/js/pages/dashboard.js"></script>
 <script src="../public/dist/js/demo.js"></script>
+<script src="../public/alerts/alertify.min.js"></script>
 </body>
 </html>
