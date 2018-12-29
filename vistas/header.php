@@ -9,7 +9,9 @@
   <link rel="stylesheet" href="../public/bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../public/bower_components/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="../public/bower_components/Ionicons/css/ionicons.min.css">
-  <link rel="stylesheet" href="../public/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+  <link rel="stylesheet" href="../public/datatables/jquery.dataTables.min.css">
+  <link href="../public/datatables/buttons.dataTables.min.css" rel="stylesheet"/>
+  <link href="../public/datatables/responsive.dataTables.min.css" rel="stylesheet"/>
   <link rel="stylesheet" href="../public/dist/css/AdminLTE.min.css">
   <link rel="stylesheet" href="../public/dist/css/skins/_all-skins.min.css">
   <link rel="stylesheet" href="../public/bower_components/morris.js/morris.css">
@@ -48,7 +50,7 @@
           </a>
         </li>
         <li class="">
-          <a href="">
+          <a href="companies.php">
             <i class="fa fa-briefcase" aria-hidden="true"></i> <span>Empresas</span>
           </a>
         </li>          

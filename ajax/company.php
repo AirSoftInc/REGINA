@@ -61,7 +61,7 @@
                 $results = array(
                     "sEcho" => 1,
                     "iTotalRecords" => count($data),
-                    "iTotalDisplayRecords" => cout($data),
+                    "iTotalDisplayRecords" => count($data),
                     "aaData" => $data);
 
                     echo json_encode($results);

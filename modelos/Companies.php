@@ -6,7 +6,6 @@
         public function getCompanies(){
 
             $connect = parent :: connection();
-            parent :: set_names();
             
             $sql = "SELECT * FROM companies";
             $sql = $connect -> prepare($sql);
