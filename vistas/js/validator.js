@@ -1,7 +1,6 @@
 function validateRfc() {
 	var strCorrecta;
 	strCorrecta = document.getElementById("rfc").value;
-	console.log(strCorrecta);
 		
 	if (strCorrecta.length == 12){
 	var valid = '^(([A-Z]|[a-z]){3})([0-9]{6})((([A-Z]|[a-z]|[0-9]){3}))';
@@ -117,7 +116,5 @@ function isNotBlank(value, field){
         alertify.log("El campo " + field + " es obligatorio");
         document.getElementById('btnSave').disabled=true; 
         return false;
-    }else{
-        document.getElementById('btnSave').disabled=false; 
     }
 }

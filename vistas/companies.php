@@ -57,20 +57,20 @@
                             <div class="form-group col-md-6">
                                 <label for="name">Nombre<span class="text-danger"> *</span></label>
                                 <input type="text" class="form-control" id="name" name="name" placeholder="Nombre"
-                                required onblur="validateAlphanumeric(this.value, 'Nombre'); isNotBlank(this.value, 'Nombre')">
+                                required onblur="validateAlphanumeric(this.value, 'Nombre')">
                             </div>
 
                             <div class="form-group col-md-6">
                                 <label for="rfc">RFC<span class="text-danger"> *</span></label>
                                 <input type="text" class="form-control" id="rfc" name="rfc" placeholder="RFC"
-                                required onblur="validateRfc(); isNotBlank(this.value, 'RFC')">
+                                required onblur="validateRfc()">
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-md-5">
                                 <label for="street">Calle<span class="text-danger"> *</span></label>
                                 <input type="text" class="form-control" id="street" name="street" placeholder="Calle"
-                                required onblur="validateAlphanumeric(this.value, 'Calle'); isNotBlank(this.value, 'Calle')">
+                                required onblur="validateAlphanumeric(this.value, 'Calle')">
                             </div>
 
                             <div class="form-group col-md-2">
@@ -82,13 +82,13 @@
                             <div class="form-group col-md-2">
                                 <label for="external_number">N.Externo<span class="text-danger">*</span></label>
                                 <input type="text" class="form-control" id="external_number" name="external_number" placeholder="N.E"
-                                required onblur="validateNumber(this.value, 'N. Externo'); isNotBlank(this.value, 'N. Externo')">
+                                required onblur="validateNumber(this.value, 'N. Externo')">
                             </div>
 
                             <div class="form-group col-md-3">
                                 <label for="colony">Colonia<span class="text-danger"> *</span></label>
                                 <input type="text" class="form-control" id="colony" name="colony" placeholder="Colonia"
-                                required onblur="validateAlphanumeric(this.value, 'Colonia'); isNotBlank(this.value, 'Colonia')">
+                                required onblur="validateAlphanumeric(this.value, 'Colonia')">
                             </div>
                         </div>
 
@@ -96,32 +96,32 @@
                             <div class="form-group col-md-4">
                                 <label for="municipality">Municipio<span class="text-danger"> *</span></label>
                                 <input type="text" class="form-control" id="municipality" name="municipality" placeholder="Municipio"
-                                required onblur="validateText(this.value, 'Municipio'); isNotBlank(this.value, 'Municipio')">
+                                required onblur="validateText(this.value, 'Municipio')">
                             </div>
 
                             <div class="form-group col-md-2">
                                 <label for="zip_code">C.P<span class="text-danger"> *</span></label>
                                 <input type="text" class="form-control" id="zip_code" name="zip_code" placeholder="CP"
-                                required minlength="5" maxlength="5" onblur="validateZipCode(this.value, 'C.P'); isNotBlank(this.value, 'C.P')">
+                                required minlength="5" maxlength="5" onblur="validateZipCode(this.value, 'C.P')">
                             </div>
 
                             <div class="form-group col-md-3">
                                 <label for="state">Estado<span class="text-danger"> *</span></label>
                                 <input type="text" class="form-control" id="state" name="state" placeholder="Estado"
-                                required onblur="validateText(this.value, 'Estado'); isNotBlank(this.value, 'Estado')">
+                                required onblur="validateText(this.value, 'Estado')">
                             </div>
 
                             <div class="form-group col-md-3">
                                 <label for="country">Pais<span class="text-danger"> *</span></label>
                                 <input type="text" class="form-control" id="country" name="country" placeholder="Pais"
-                                required onblur="validateText(this.value, 'País'); isNotBlank(this.value, 'País')">
+                                required onblur="validateText(this.value, 'País')">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label for="mail1">Correo 1<span class="text-danger"> *</span></label>
                             <input type="text" class="form-control" id="mail1" name="mail1" placeholder="example@example.com"
-                            onblur="validateEmail(this.value, 'Correo 1'); isNotBlank(this.value, 'Correo 1')">
+                            onblur="validateEmail(this.value, 'Correo 1')">
                         </div>
 
                         <div class="form-group">
