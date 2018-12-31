@@ -13,7 +13,13 @@
   $.widget.bridge('uibutton', $.ui.button);
 </script>
 <script src="../public/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="../public/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="../public/datatables/jquery.dataTables.min.js"></script>
+<script src="../public/datatables/dataTables.buttons.min.js"></script>
+<script src="../public/datatables/buttons.html5.min.js"></script>
+<script src="../public/datatables/buttons.colVis.min.js"></script>
+<script src="../public/datatables/jszip.min.js"></script>
+<script src="../public/datatables/pdfmake.min.js"></script>
+<script src="../public/datatables/vfs_fonts.js"></script>
 <script src="../public/bower_components/raphael/raphael.min.js"></script>
 <script src="../public/bower_components/morris.js/morris.min.js"></script>
 <script src="../public/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
@@ -29,5 +35,6 @@
 <script src="../public/dist/js/adminlte.min.js"></script>
 <script src="../public/dist/js/pages/dashboard.js"></script>
 <script src="../public/dist/js/demo.js"></script>
+<script src="../public/alerts/alertify.min.js"></script>
 </body>
 </html>

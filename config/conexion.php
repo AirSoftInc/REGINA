@@ -1,11 +1,10 @@
 <?php 
     class Connect{
-
         protected $dbh;
 
         protected function connection(){
             try {
-                $connect = $this-> $dbh = new PDO("mysql:local=localhost; dbname=regina_hotel", "root", "");
+                $connect = $this->dbh = new PDO("mysql:local=localhost; dbname=regina_hotel", "root", "");
 
                 return $connect;
 

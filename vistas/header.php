@@ -9,7 +9,11 @@
   <link rel="stylesheet" href="../public/bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../public/bower_components/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="../public/bower_components/Ionicons/css/ionicons.min.css">
-  <link rel="stylesheet" href="../public/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+  <link rel="stylesheet" href="../public/datatables/jquery.dataTables.min.css">
+  <link href="../public/datatables/buttons.dataTables.min.css" rel="stylesheet"/>
+  <link href="../public/datatables/responsive.dataTables.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="../public/alerts/alertify.default.css">
+  <link rel="stylesheet" href="../public/alerts/alertify.core.css">
   <link rel="stylesheet" href="../public/dist/css/AdminLTE.min.css">
   <link rel="stylesheet" href="../public/dist/css/skins/_all-skins.min.css">
   <link rel="stylesheet" href="../public/bower_components/morris.js/morris.css">
@@ -23,7 +27,7 @@
 <div class="wrapper">
 
   <header class="main-header">
-    <a href="index2.html" class="logo"  style="background-color: #a4243b">
+    <a href="index.php" class="logo"  style="background-color: #a4243b">
       <span class="logo-mini"><b>H</b>REG</span>
       <span class="logo-lg"><b>HOTEL REGINA</b></span>
     </a>
@@ -39,34 +43,19 @@
         <li class="header">MENU</li>
         <li class="">
           <a href="index.php">
-            <i class="fa fa-home" aria-hidden="true"></i> <span>Inicio</span>
+            <i class="fa fa-book" aria-hidden="true"></i> <span>Reservaciones</span>
           </a>
         </li>
-
          <li class="">
           <a href="">
-            <i class="fa fa-list" aria-hidden="true"></i> <span>Categoría</span>
+            <i class="fa fa-user" aria-hidden="true"></i> <span>Clientes</span>
           </a>
         </li>
-
         <li class="">
-          <a href="">
-            <i class="fa fa-shopping-basket" aria-hidden="true"></i> <span>Presentación</span>
+          <a href="companies.php">
+            <i class="fa fa-briefcase" aria-hidden="true"></i> <span>Empresas</span>
           </a>
-        </li>
-
-
-         <li class="">
-          <a href="">
-            <i class="fa fa-tasks" aria-hidden="true"></i> <span>Productos</span>
-          </a> 
-        </li>
-
-        <li class="">
-          <a href="">
-            <i class="fa fa-users"></i> <span>Proveedores</span>
-          </a>
-        </li>           
+        </li>          
       </ul>
     </section>
   </aside>
